@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="Style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      /* Add your custom CSS here */
+      /* Increase font size for About Me section */
+      .about-content h2 {
+        font-size: 3.6rem;
+      }
+
+      .about-content p {
+        font-size: 2rem;
+      }
+
+      /* Increase font size for project titles and descriptions */
+      .project-item h3 {
+        font-size: 2.4rem;
+      }
+
+      .project-item p {
+        font-size: 1.8rem;
+      }
+
+      /* Increase font size for certificate titles */
+      .certificate-item h3 {
+        font-size: 2.4rem;
+      }
+
+      /* Increase font size for certificate descriptions */
+      .certificate-item p {
+        font-size: 1.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="fas fa-bars" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Welcome</h3>
+        <h1>Nayana Harshitha Reddy C</h1>
+        <p>Web Developer</p>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+      <div class="home-img">
+        <img src="img/profiledp.png" alt="Home Image" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/aboutpic.png" alt="About Image" />
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          I am studying BTech 2nd year at Gandhi Institute of Technology and
+          Management, Bangalore. I have done several projects on web
+          development. I am proficient in C, Python, and Java. I have earned 28
+          certificates in various skills and technologies.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class="fas fa-code"></i>
+          <h3>C Programming</h3>
+          <p>
+            Proficient in C programming with experience in data structures and
+            algorithms.
+          </p>
+        </div>
+        <div class="skills-box">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <p>
+            Skilled in Python for web development, automation, and data
+            analysis.
+          </p>
+        </div>
+        <div class="skills-box">
+          <i class="fab fa-java"></i>
+          <h3>Java</h3>
+          <p>
+            Experienced in Java for building robust applications and software
+            development.
+          </p>
+        </div>
+        <div class="skills-box">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            Expertise in HTML, CSS, JavaScript, and frameworks like React and
+            Angular.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-item">
+          <img src="img/weather_forecast.jpg" alt="Weather Forecast" />
+          <h3>Weather Forecast Web Page</h3>
+          <p>
+            Mar 2024 - May 2024<br />
+            <a
+              href="https://github.com/harsinth/PRODIGY_WD_05-Weather-web-App-.git"
+              >GitHub Repository</a
+            ><br />
+            Created a dynamic weather forecast web page using a weather API,
+            demonstrating skills in data integration and front-end design.
+            Utilized HTML, CSS, and JavaScript to fetch and display real-time
+            weather data based on the user's location. Designed an intuitive
+            user interface with informative weather cards, temperature
+            visualization, and responsive layout.
+          </p>
+        </div>
+        <div class="project-item">
+          <img src="img/stopwatch.jpg" alt="Stopwatch" />
+          <h3>Stopwatch Web Application</h3>
+          <p>
+            Jan 2024 - May 2024<br />
+            <a href="https://github.com/harsinth/PRODIGY_WD_02-stopwatch.git"
+              >GitHub Repository</a
+            ><br />
+            Engineered an interactive stopwatch application using HTML, CSS, and
+            JavaScript, showcasing proficiency in front-end development and user
+            interface design. Implemented start, stop, reset, and lap
+            functionalities with smooth transitions and user-friendly controls.
+            Demonstrated expertise in event handling, DOM manipulation, and
+            responsive design.
+          </p>
+        </div>
+        <div class="project-item">
+          <img src="img/multi_client_chat.jpg" alt="Multi Client Chat" />
+          <h3>Multi Client Chat Application</h3>
+          <p>
+            Jan 2024 - May 2024<br />
+            <a href="https://github.com/harsinth/multiclient-chat-app.git"
+              >GitHub Repository</a
+            ><br />
+            Developed a multi-client chat application using Java for the backend
+            and HTML, CSS, and JavaScript for the frontend. Utilized WebSocket
+            technology to establish real-time bidirectional communication
+            between clients and the server. Designed a responsive and
+            interactive user interface with HTML and CSS for seamless messaging
+            experience across devices. Implemented client-side scripting with
+            JavaScript to handle user interactions and message processing.
+            Employed Java for server-side logic to manage incoming connections,
+            handle messaging, and maintain chat sessions. Ensured security and
+            privacy by implementing authentication mechanisms and message
+            encryption. Employed asynchronous programming techniques to handle
+            concurrent connections and optimize performance.
+          </p>
+        </div>
+        <!-- Add other project items here -->
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+      <h2>Certificates</h2>
+      <div class="certificate-container">
+        <div class="certificate-item">
+          <h3>Python (Hackerrank)</h3>
+          <p>Completion Certificate from Hackerrank in Python</p>
+        </div>
+        <div class="certificate-item">
+          <h3>C Programming (Prepinsta)</h3>
+          <p>Completion Certificate from Prepinsta in C Programming</p>
+        </div>
+        <div class="certificate-item">
+          <h3>Computer Networks (Prepinsta)</h3>
+          <p>Completion Certificate from Prepinsta in Computer Networks</p>
+        </div>
+        <div class="certificate-item">
+          <h3>GitHub</h3>
+          <p>Completion Certificate for GitHub course</p>
+        </div>
+        <div class="certificate-item">
+          <h3>Git</h3>
+          <p>Completion Certificate for Git course</p>
+        </div>
+        <div class="certificate-item">
+          <h3>JavaScript (Prepinsta)</h3>
+          <p>Completion Certificate from Prepinsta in JavaScript</p>
+        </div>
+        <div class="certificate-item">
+          <h3>HTML (Prepinsta)</h3>
+          <p>Completion Certificate from Prepinsta in HTML</p>
+        </div>
+        <div class="certificate-item">
+          <h3>CSS (Prepinsta)</h3>
+          <p>Completion Certificate from Prepinsta in CSS</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p>Full Name: Nayana Harshitha Reddy C</p>
+        <p>Phone Number: 9353066155</p>
+        <p>Email Address: harsinth@gmail.com</p>
+        <p>LinkedIn Profile: Nayana Harshitha Reddy C</p>
+      </div>
+      <form class="contact-form">
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your message"
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2024 Nayana Harshitha Reddy C - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
